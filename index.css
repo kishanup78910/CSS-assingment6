@@ -1,0 +1,59 @@
+
+.main-container{
+  background-color: rgb(176, 194, 188);
+}
+
+.task-list{
+  margin-left: 310px;
+}
+
+.main2{
+  background-color: white;
+  width: 900px;
+  height: 800px;
+  margin-left: 150px;
+}
+
+.task{
+  display: flex;
+}
+
+.logo{
+  height: 70px;
+  margin-left: 550px;
+}
+
+.discription{
+  font-weight: bolder;
+  text-shadow: 2px 2px 2px grey;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 30px;
+  padding: 10px;
+  margin-left: 40px;
+  margin-top: -10px;
+}
+
+.grid{
+  width: 250px;
+  height: 250px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: rgb(176, 194, 188);
+}
+
+.grid h2{
+  color: blueviolet;
+}
+
+.span{
+  text-decoration-line: line-through;
+}
+
+.grid:hover{
+  box-shadow: 7px 7px 20px black;
+  cursor: pointer;
+}
